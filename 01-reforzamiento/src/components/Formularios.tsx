@@ -15,14 +15,14 @@ export const Formularios = () => {
                 type="text" 
                 className="form-control"
                 placeholder="Email"
-                value={formulario.email}
+                value={email}
                 onChange={({target}) => onChange(target.value, 'email')}
             />
             <input 
                 type="text" 
                 className="form-control mt-2 mb-1"
                 placeholder="Password"
-                value={formulario.password}
+                value={password}
                 onChange={({target}) => onChange(target.value, 'password')}
             />
             <code>
