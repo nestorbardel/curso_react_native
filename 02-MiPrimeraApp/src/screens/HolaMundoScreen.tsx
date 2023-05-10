@@ -14,7 +14,7 @@ export const HolaMundoScreen = () => {
           fontSize: 45,
           textAlign: 'center'
         }}
-        >Hola Mundo</Text>
+        >Hola Mundo!!!</Text>
       </View>
   )
 }
